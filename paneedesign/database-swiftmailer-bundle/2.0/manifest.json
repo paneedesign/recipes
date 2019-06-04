@@ -1,0 +1,14 @@
+{
+    "bundles": {
+        "PaneeDesign\\DatabaseSwiftMailerBundle\\PedDatabaseSwiftMailerBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+        "SMD_MAX_RETRIES": 10,
+        "SMD_DELETE_SENT_MESSAGES": false,
+        "SMD_ENTITY_MANAGER": "doctrine.orm.default_entity_manager"
+    },
+    "aliases": ["swiftmailer.spool.db"]
+}

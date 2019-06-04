@@ -1,0 +1,4 @@
+ped_database_swift_mailer:
+    max_retries: "%env(SMD_MAX_RETRIES)%"
+    delete_sent_messages: "%env(SMD_DELETE_SENT_MESSAGES)%"
+    entity_manager: "%env(SMD_ENTITY_MANAGER)%"
