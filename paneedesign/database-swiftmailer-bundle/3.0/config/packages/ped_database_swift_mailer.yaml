@@ -1,0 +1,7 @@
+ped_database_swift_mailer:
+    max_retries: "%env(int:SMD_MAX_RETRIES)%"
+    delete_sent_messages: "%env(bool:SMD_DELETE_SENT_MESSAGES)%"
+    auto_flush: "%env(bool:SMD_AUTO_FLUSH)%"
+    entity_manager: "%env(SMD_ENTITY_MANAGER)%"
+    views:
+        max_page_rows: "%env(int:SMD_MAX_PAGE_ROWS)%"
