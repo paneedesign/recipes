@@ -1,7 +1,3 @@
-parameters:
-    env(STORAGE_DIRECTORY): 'uploads'
-    env(STORAGE_THUMBS_PREFIX): 'thumbs'
-
 ped_storage:
     adapter:       local
     directory:     "%env(STORAGE_DIRECTORY)%"
