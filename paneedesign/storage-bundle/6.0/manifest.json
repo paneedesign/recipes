@@ -1,0 +1,23 @@
+{
+    "bundles": {
+        "Fresh\\DoctrineEnumBundle\\FreshDoctrineEnumBundle": ["all"],
+        "Liip\\ImagineBundle\\LiipImagineBundle": ["all"],
+        "Knp\\Bundle\\GaufretteBundle\\KnpGaufretteBundle": ["all"],
+        "PaneeDesign\\DiscriminatorMapBundle\\PedDiscriminatorMapBundle": ["all"],
+        "PaneeDesign\\StorageBundle\\PedStorageBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+        "STORAGE_ADAPTER": "local",
+        "STORAGE_DIRECTORY": "uploads",
+        "STORAGE_THUMBS_PREFIX": "thumbs",
+        "STORAGE_LOCAL_ENDPOINT": "/uploads"
+    },
+    "gitignore": [
+        "/public/uploads",
+        "/public/thumbs"
+    ],
+    "aliases": ["storage"]
+}

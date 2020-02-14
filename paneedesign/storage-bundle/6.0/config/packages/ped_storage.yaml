@@ -1,0 +1,4 @@
+ped_storage:
+    adapter:       local
+    directory:     "%env(STORAGE_DIRECTORY)%"
+    thumbs_prefix: "%env(STORAGE_THUMBS_PREFIX)%"
